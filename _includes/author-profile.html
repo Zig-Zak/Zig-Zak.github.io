@@ -124,7 +124,7 @@
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
       {% if author.linkedin %}
-        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
       {% endif %}      
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
@@ -150,6 +150,21 @@
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X (formerly Twitter)</a></li>
       {% endif %}
+      {% if author.printables %}
+          {% if author.printables_icon %}
+            <li>
+              <a href="{{ author.printables }}">
+                <img src="{{ author.printables_icon | prepend: '/images/' | prepend: base_path }}" alt="Printables" class="social-icon" width="25" height="25" style="width:14px;height:14px;max-width:25px;max-height:25px;object-fit:contain;vertical-align:middle;display:inline-block;" />
+                    <span class="social-text">&nbsp;&nbsp;Printables.com</span>
+              </a>
+            </li>
+          {% else %}
+            <li><a href="{{ author.printables }}"><i class="fas fa-fw fa-print icon-pad-right" aria-hidden="true"></i>Printables.com</a></li>
+          {% endif %}
+      {% endif %}
+      {% if author.bilibili %}
+        <li><a href="{{author.bilibili}}"><i class="fab fa-fw fa-bilibili icon-pad-right" aria-hidden="true"></i>Bilibili</a></li>
+      {% endif %} 
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine icon-pad-right" aria-hidden="true"></i>Vine</a></li>
       {% endif %}        
@@ -162,6 +177,9 @@
       {% if author.xing %}
         <li><a href="https://www.xing.com/profile/{{ author.xing }}"><i class="fab fa-fw fa-xing icon-pad-right" aria-hidden="true"></i>XING</a></li>
       {% endif %}
+      <!-- {% if author.youtube %}
+        <li><a href="{{author.youtube}}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
+      {% endif %} -->
       {% if author.youtube %}
         <li><a href="https://www.youtube.com/@{{ author.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
       {% endif %}

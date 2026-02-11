@@ -10,8 +10,11 @@
 main:
   # - title: "Publications"
   #   url: /publications/
-  - title: "Projects"
+  - title: "Research Projects"
     url: /projects/
+
+  - title: "Independent Projects"
+    url: /indeproj/   
 
   # - title: "Talks"
   #   url: /talks/    
@@ -25,8 +28,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/

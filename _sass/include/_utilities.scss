@@ -6,7 +6,18 @@
    Visibility
    ========================================================================== */
 
-/* http://www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
+  htt.social-icon {
+  width: px;
+  height: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  object-fit: contain;
+  margin-right: 0.5em;
+  position: relative;
+  top: -0.1em;
+  border-radius: 50%;        /* 如果想要圆形 */
+  border: 1px solid rgba(0,0,0,0.06); /* 可选边框 */
+} //www.456bereastreet.com/archive/200711/screen_readers_sometimes_ignore_displaynone/ */
 
 .hidden {
   display: none;
@@ -236,6 +247,28 @@ body:hover .visually-hidden button {
   .fa-google-plus,
   .fa-google-plus-square {
     color: $google-plus-color;
+  }
+
+  /* Image-based social icons (e.g., custom SVG/PNG) */
+  /* Use a more specific selector so these rules are less likely to be overridden */
+  .author__urls.social-icons .social-icon,
+  .author__urls .social-icons .social-icon {
+    width: 25px !important;
+    height: 25px !important;
+    max-width: 25px !important;
+    max-height: 25px !important;
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: contain;
+    margin-right: 0.5em; /* match .icon-pad-right spacing */
+    position: relative;
+    top: -0.1em; /* match .icon baseline offset for consistent alignment */
+  }
+
+  /* Allow adding extra left spacing specifically to social link text (doesn't move the icon) */
+  .author__urls.social-icons .social-text {
+    display: inline-block;
+    margin-left: 11px !important; /* explicit px and important to avoid overrides */
   }
 
   .fa-instagram {

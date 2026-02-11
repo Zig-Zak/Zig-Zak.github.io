@@ -1,40 +1,116 @@
 ---
 layout: single
-title: "About Me"
+title: "A Bit About Me"
 permalink: /
 redirect_from:
   - /about/
 author_profile: true
 ---
-Qianjun Xia is an M.S. student in Mechanical Engineering (Research Track) at Columbia University, concentrating on robotics and control. His current research in the [Creative Machine Lab](https://www.creativemachineslab.com/), advised by [Jiong Lin](https://jl6017.github.io/) and [Hod Lipson](https://www.hodlipson.com/), focuses on video-based parameter estimation for deformable objects & soft robotics and generative model in mechanism design.
+<style>
+  :root {
+    --bg-shift: 0px;
+  }
 
-Before coming to Columbia, Qianjun earned his Bachelor’s degree in Mechanical Engineering at Shanghai Jiao Tong University (SJTU), where he was advised by [Prof. Dong Wang](https://me.sjtu.edu.cn/en/FullTimeTeacher/wangdong1.html). He worked on magnetic-wire-guiding robots for minimally invasive surgery involving mechanical design, control, and elastic–rod modeling.
+  body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 6rem; /* 或增加底部留白 */
+    /* background-color: #fff; */
+  }
 
-His broader interests lie in robot learning, physics-based simulation and 3D computer vision.
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url('/images/about/slide3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 1;
+    transform: translate3d(0, calc(var(--bg-shift) * -0.25), 0);
+    z-index: -1;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.25);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  .page,
+  .page__inner,
+  .page__content {
+    background: transparent !important;
+  }
+</style>
+I am a recent Mechanical Engineering graduate from Columbia University, and I previously earned my bachelor's degree from Boston University. At the Creative Machines Lab, under the supervision of [Jiong Lin](https://jl6017.github.io/) and [Hod Lipson](https://www.hodlipson.com/), I study Chebyshev-net-inspired robotic structures and vision-based control of 2D robot clusters. My background covers Digital Manufacture, Robotics, Mechatronic Design, Control Engineering, and Machine Learning. 
+
+<div style="flex: 0.2; text-align: center;">
+  <img
+    src="/images/about/walk.gif"
+    alt="Overview"
+    style="width: 20%; height: auto; border-radius: 10px;"
+  >
+  <!-- <div style="font-size: 14px; margin-top: 6px;">
+   0
+  </div> -->
+</div>
+
 
 ---
 
-# Education
+>Outside of coursework, I have also devoted a signficant amount of my own time to building task-driven projects aligned with my interests. Through these projects I have cultivated hands-on experience far beyond what traditional classes offer. I also run a Bilibili channel with 15K followers and 1.45M total views as of December 2025.
 
-**Columbia University**  
-M.S., Mechanical Engineering (Robotics and Control)  
-Sep 2024 – Present  GPA: 4.12/4.0  
-
-**Shanghai Jiao Tong University**  
-B.S., Mechanical Engineering; Double Major in Mathematics and Applied Mathematics  
-Sep 2020 – Jun 2024  GPA: 82.76/100
+The following projects highlights some of the work that best reflects my approach to Engineering. Additional projects are available in the sections above.
 
 ---
 
-# Internship
+# Featured Projects
+**Robo Weasel: Biologically Inspired Quadruped Layout**  
+<!-- below is a img with hyperlink -->
+<p>
+  <a href="{{ '/indeproj/robo_weasel/' | relative_url }}">
+    <img src="{{ '/images/indeproj/stoat/Picture4 copy.png' | relative_url }}" alt="Magnetic wire project" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+  </a>
+</p>
 
-**Shanghai ABB Engineering Co., Ltd**  
+**FORGE: A Vertical Ferrous Surface servicing Robotic Platform**  
+<!-- below is a img with hyperlink -->
+<p>
+  <a href="{{ '/projects/FORGE/' | relative_url }}">
+    <img src="{{ '/images/projects/FORGE/FORGE_title.png' | relative_url }}" alt="Magnetic wire project" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+  </a>
+</p>
+
+**Chebyshev Robot: A Flat and Non-stretchable Mesh-like Robotic Structure**  
+<!-- below is a img with hyperlink -->
+<p>
+  <a href="{{ '/projects/chebyshev_robot/' | relative_url }}">
+    <img src="{{ '/images/projects/chebyshev/Chebyshev_titleW.png' | relative_url }}" alt="Magnetic wire project" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+  </a>
+</p> 
+
+
+
+
+<!-- # Internship -->
+
+
+
+
+
+
+<!-- **Shanghai ABB Engineering Co., Ltd**  
 Vision Algorithm Intern  
 Jun 2023 – Sept 2023  
 - Assisted in developing computer vision algorithms for industrial robotic inspection.  
 - Worked on detection and segmentation pipelines for manufacturing scenes.
 
----
+--- -->
 
 <!-- # Research Experience
 
@@ -49,3 +125,13 @@ Advisors: [Jiong Lin (PhD Candidate)](https://jl6017.github.io/), [Prof. Hod Lip
 Mar 2025 – Present  
 - Research on inferring material and actuator parameters of deformable bodies from video.  
 - Combines large-scale synthetic simulation with transformer-based video models. -->
+
+<script>
+  const setBgShift = () => {
+    const offset = window.scrollY * 0.15;
+    document.documentElement.style.setProperty('--bg-shift', `${offset}px`);
+  };
+
+  window.addEventListener('scroll', setBgShift, { passive: true });
+  setBgShift();
+</script>
