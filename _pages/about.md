@@ -22,7 +22,7 @@ author_profile: true
     content: '';
     position: fixed;
     inset: 0;
-    background-image: url('/images/about/slide3.png');
+    background-image: url('/images/about/slide3.jp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
