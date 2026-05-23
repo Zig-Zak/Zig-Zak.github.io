@@ -51,7 +51,7 @@ I am a recent Mechanical Engineering graduate from Columbia University, and I pr
 
 <div style="flex: 0.2; text-align: center;">
   <img
-    src="/images/about/walk.gif"
+    src="{{ '/images/about/walk.gif' | relative_url }}"
     alt="Overview"
     style="width: 20%; height: auto; border-radius: 10px;"
   >
