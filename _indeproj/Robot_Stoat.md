@@ -89,7 +89,7 @@ The idea is that for small size quadrupped robots, A strong waist joint and rela
 <div style="display: flex; gap: 16px; align-items: center; justify-content: center; margin: 10px; color:#666;">
   <!-- Left image -->
   <div style="flex: 0.75; text-align: center;">
-    <img src="/images/indeproj/stoat/final_5.jpg"
+    <img src="/images/indeproj/stoat/final_5.JPG"
          alt="stoat5"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
@@ -98,7 +98,7 @@ The idea is that for small size quadrupped robots, A strong waist joint and rela
   </div>
   <!-- Right image -->
   <div style="flex: 1; text-align: center;">
-    <img src="/images/indeproj/stoat/final_6.jpg"
+    <img src="/images/indeproj/stoat/final_6.JPG"
          alt="stoat6"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
