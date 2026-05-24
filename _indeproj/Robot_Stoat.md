@@ -125,7 +125,7 @@ A gymnasium style environment wrapper was implemented, and the training loop use
 ---
 
   <div style="flex: 1; text-align: center;">
-    <img src="/images/indeproj/stoat/gait_rew.GIF"
+    <img src="/images/indeproj/stoat/gait_rew.gif"
          alt="Gait Reward"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
