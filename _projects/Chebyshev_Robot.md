@@ -260,7 +260,7 @@ Currently, the reinforcement learning(RL) process served mainly as a mechanical 
 
 ---
   <div style="flex: 1; text-align: center;">
-    <img src="/images/projects/Chebyshev/unit.GIF"
+    <img src="/images/projects/Chebyshev/unit.gif"
          alt="single unit walking"
          style="max-width: 50%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
