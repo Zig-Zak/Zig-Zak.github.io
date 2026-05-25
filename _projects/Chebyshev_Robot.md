@@ -74,7 +74,7 @@ This 2-Dof robot is composed of several mechanically elaborate features. Each of
 <div style="display: flex; gap: 16px; align-items: center; justify-content: center; margin: 10px; color:#666;">
   <!-- Left image -->
   <div style="flex: 1; text-align: center;">
-    <img src="/images/projects/Chebyshev/V2.jpg"
+    <img src="/images/projects/Chebyshev/V2.JPG"
          alt="V2"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
@@ -83,7 +83,7 @@ This 2-Dof robot is composed of several mechanically elaborate features. Each of
   </div>
   <!-- Right image -->
   <div style="flex: 1; text-align: center;">
-    <img src="/images/projects/Chebyshev/V2b.jpg"
+    <img src="/images/projects/Chebyshev/V2b.JPG"
          alt="V2 break down"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
