@@ -203,7 +203,7 @@ The suspension of FORGE was inspired by the rocker-bogies suspension system from
 <div style="display: flex; gap: 16px; align-items: center; justify-content: center; margin: 10px; color:#666;">
   <!-- Left image -->
   <div style="flex: 1.03; text-align: center;">
-    <img src="/images/projects/FORGE/suspension.GIF"
+    <img src="/images/projects/FORGE/suspension.gif"
          alt="V2"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
