@@ -47,7 +47,7 @@ FORGE is an automated robot designed to operate on near-vertical ship hull, whic
   </div>
   <!-- Right image -->
   <div style="flex: 1; text-align: center;">
-    <img src="/images/projects/FORGE/current_progress.png"
+    <img src="/images/projects/FORGE/Current_progress.png"
          alt="current progress"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
