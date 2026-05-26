@@ -7,7 +7,7 @@ permalink: /projects/chebyshev_robot/
 ---
 
 
-![Chebyshev_opening](/images/projects/Chebyshev/Chebyshev_titleW.png)
+![Chebyshev_opening](/images/projects/Chebyshev/chebyshev_titlew.png)
 
 **Skills Involved**: Reinforcement Learning, Python, MUJOCO simulation, CAD modeling, 3D printing
 
