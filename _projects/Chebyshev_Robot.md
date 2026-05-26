@@ -344,7 +344,7 @@ It's also worth mentioning that **Saddle Form has Limited Scale**: An overly lar
 <div style="display: flex; gap: 16px; align-items: center; justify-content: center; margin: 10px; color:#666;">
   <!-- Left image -->
   <div style="flex: 1.5; text-align: center;">
-    <img src="/images/projects/Chebyshev/Connect2.GIF"
+    <img src="/images/projects/Chebyshev/connect2.gif"
          alt="Chebyshev PPO Locomotion"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
@@ -353,7 +353,7 @@ It's also worth mentioning that **Saddle Form has Limited Scale**: An overly lar
   </div>
   <!-- Right image -->
   <div style="flex: 1; text-align: center;">
-    <img src="/images/projects/Chebyshev/connect2.PNG"
+    <img src="/images/projects/Chebyshev/connect2.png"
          alt="PPO config flattened"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
