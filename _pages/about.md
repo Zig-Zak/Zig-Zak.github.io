@@ -74,7 +74,7 @@ The following projects highlights some of the work that best reflects my approac
 <!-- below is a img with hyperlink -->
 <p>
   <a href="{{ '/indeproj/robo_weasel/' | relative_url }}">
-    <img src="{{ '/images/indeproj/stoat/Picture4 copy.png' | relative_url }}" alt="Magnetic wire project" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+    <img src="{{ '/images/indeproj/stoat/Picture4 copy.png' | relative_url }}" alt="Robot Stoat" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
   </a>
 </p>
 
@@ -82,7 +82,7 @@ The following projects highlights some of the work that best reflects my approac
 <!-- below is a img with hyperlink -->
 <p>
   <a href="{{ '/projects/FORGE/' | relative_url }}">
-    <img src="{{ '/images/projects/FORGE/FORGE_title.png' | relative_url }}" alt="Magnetic wire project" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+    <img src="{{ '/images/projects/FORGE/FORGE_title.png' | relative_url }}" alt="FORGE" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
   </a>
 </p>
 
@@ -90,7 +90,7 @@ The following projects highlights some of the work that best reflects my approac
 <!-- below is a img with hyperlink -->
 <p>
   <a href="{{ '/projects/chebyshev_robot/' | relative_url }}">
-    <img src="{{ '/images/projects/chebyshev/Chebyshev_titleW.png' | relative_url }}" alt="Magnetic wire project" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+    <img src="{{ '/images/projects/chebyshev/Chebyshev_titleW.png' | relative_url }}" alt="Chebyshev Robot" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
   </a>
 </p> 
 
