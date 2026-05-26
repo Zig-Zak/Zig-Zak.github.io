@@ -213,7 +213,7 @@ The suspension of FORGE was inspired by the rocker-bogies suspension system from
   </div>
   <!-- Right image -->
   <div style="flex: 1; text-align: center;">
-    <img src="/images/projects/FORGE/Rocker_Arm.png"
+    <img src="/images/projects/FORGE/rocker_arm.png"
          alt="V2 break down"
          style="max-width: 100%; height: auto; border-radius: 10px;">
     <div style="font-size: 14px; margin-top: 6px;">
