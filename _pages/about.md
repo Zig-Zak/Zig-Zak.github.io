@@ -90,9 +90,10 @@ The following projects highlights some of the work that best reflects my approac
 <!-- below is a img with hyperlink -->
 <p>
   <a href="{{ '/projects/chebyshev_robot/' | relative_url }}">
-    <img src="{{ '/images/projects/chebyshev/chebyshev_titlew.png' | relative_url }}" alt="Chebyshev Robot" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
+    <img src="{{ '/images/projects/Chebyshev/chebyshev_titlew.png' | relative_url }}" alt="Chebyshev Robot" style="width:1000px;height:auto;display:inline-block;vertical-align:middle;border-radius:6px;" />
   </a>
 </p> 
+
 
 
 
