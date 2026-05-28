@@ -49,23 +49,23 @@ author_profile: true
 </style>
 I am a recent Mechanical Engineering graduate from Columbia University, and I previously earned my bachelor's degree from Boston University. At the Creative Machines Lab, under the supervision of [Jiong Lin](https://jl6017.github.io/) and [Hod Lipson](https://www.hodlipson.com/), I study Chebyshev-net-inspired robotic structures and vision-based control of 2D robot clusters. My background covers Digital Manufacture, Robotics, Mechatronic Design, Control Engineering, and Machine Learning. 
 
+<!--
 <div style="flex: 0.2; text-align: center;">
   <img
     src="/images/about/walk.gif"
     alt="Overview"
     style="width: 20%; height: auto; border-radius: 10px;"
   >
-  <!-- <div style="font-size: 14px; margin-top: 6px;">
+   <div style="font-size: 14px; margin-top: 6px;">
    0
-  </div> -->
+  </div> 
 </div>
-
+-->
 
 ---
 
->Outside of coursework, I have also devoted a signficant amount of my own time to building task-driven projects aligned with my interests. Through these projects I have cultivated hands-on experience far beyond what traditional classes offer. I also run a Bilibili channel with 15K followers and 1.45M total views as of December 2025.
+>Outside of coursework, I have also devoted a signficant amount of my own time to building task-driven projects aligned with my interests. I also run a Bilibili channel with 15K followers and 1.45M total views as of December 2025.
 
-The following projects highlights some of the work that best reflects my approach to Engineering. Additional projects are available in the sections above.
 
 ---
 
