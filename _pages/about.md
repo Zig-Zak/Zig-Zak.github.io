@@ -47,7 +47,7 @@ author_profile: true
     background: transparent !important;
   }
 </style>
-I am a recent Mechanical Engineering graduate from Columbia University, and I previously earned my bachelor's degree from Boston University. At the Creative Machines Lab, under the supervision of [Jiong Lin](https://jl6017.github.io/) and [Hod Lipson](https://www.hodlipson.com/), I study Chebyshev-net-inspired robotic structures and vision-based control of 2D robot clusters. My background covers Digital Manufacture, Robotics, Mechatronic Design, Control Engineering, and Machine Learning. 
+I am a recent Mechanical Engineering graduate from Columbia University, and I previously earned my bachelor's degree from Boston University. At the **Creative Machines Lab**, under the supervision of [Jiong Lin](https://jl6017.github.io/) and [Hod Lipson](https://www.hodlipson.com/), I study **Chebyshev-net-inspired robotic structures** and **vision-based control of 2D robot clusters**. My background covers **Digital Manufacture, Robotics, Mechatronic Design, Control Engineering, **and** Machine Learning**. 
 
 <!--
 <div style="flex: 0.2; text-align: center;">
