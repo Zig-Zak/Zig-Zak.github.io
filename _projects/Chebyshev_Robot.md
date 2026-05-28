@@ -1,6 +1,6 @@
 ---
 title: "Chebyshev Robot: A Flat and Non-stretchable Mesh-like Robotic Structure"
-excerpt: "<br/><img src='/images/projects/chebyshev/chebyshev_titlew.png'>"
+excerpt: "<br/><img src='/images/projects/Chebyshev/chebyshev_titlew.jpg'>"
 collection: projects
 permalink: /projects/chebyshev_robot/
 
